@@ -48,22 +48,14 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/black"
-        android:text="Get Result"
-        android:visibility="gone"
-        android:textAllCaps="false" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="131dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:text="select image and press predict button"
+        android:text="select image"
+        android:gravity="center"
         android:textColor="#100F0F"
         android:textSize="20sp" />
 
